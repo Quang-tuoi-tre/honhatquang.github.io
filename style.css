@@ -1,0 +1,87 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Container chung */
+.container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background: #2c3e50;
+    color: white;
+    padding: 50px 0;
+}
+
+header h1 span {
+    color: #f39c12;
+}
+
+/* Phần giới thiệu */
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+    background: #ecf0f1;
+}
+
+.about img {
+    width: 200px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.about .text {
+    max-width: 500px;
+    text-align: left;
+}
+
+/* Portfolio */
+.portfolio {
+    padding: 50px 0;
+}
+
+.projects {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.project img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Liên hệ */
+.contact {
+    background: #34495e;
+    color: white;
+    padding: 50px 0;
+}
+
+.contact .socials a {
+    color: #f39c12;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+.contact .socials a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
